@@ -1,7 +1,7 @@
 <?php
-    $dbname = 'pi_base'; // Add your Database name here
-    $username = 'przemek'; // Add your Username here
-    $password = 'Json123'; // Add your password here
+    $dbname = '---'; // Add your Database name here
+    $username = '---'; // Add your Username here
+    $password = '---'; // Add your password here
  
     $conn = new PDO("mysql:host=localhost;dbname=$dbname", $username, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
