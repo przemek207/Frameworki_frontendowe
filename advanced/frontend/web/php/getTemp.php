@@ -37,18 +37,4 @@
         echo 'ERROR: ' . $e->getMessage();
     }
  
-// Second section of code is for generating data for table.
-   /* try {
-    
-	$result2 = $conn->prepare("SELECT `time`, `temperature` FROM $dbname.TABLE
-			  WHERE time > DATE_SUB(NOW(), INTERVAL 1 HOUR)
-			  AND time <= NOW();");
- 
- 
-	$result2->execute();
-	
-	} catch(PDOException $e) {
-        echo 'ERROR: ' . $e->getMessage();
-    }*/
-	
 ?>
